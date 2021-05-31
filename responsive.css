@@ -1,0 +1,673 @@
+/* 
+// MOBILE 
+ ___________________________________________ 
+*/
+@media screen and (min-width: 300px) and (max-width: 767px) {
+
+  nav {
+    align-items: center;
+  }
+    /* Background */
+    .background {
+      max-height: 80vh;
+      background-attachment: unset;
+  }
+
+.logo{
+  width: 50%;
+  height: 20%;
+  }
+  
+  .hamburger{
+      display: block;
+      align-self: center;
+      cursor: pointer;
+  }
+
+  .hamburger-line1{
+      display: block;
+      width: 17px;
+      height: 2px;
+      background-color: #fff;
+      margin-bottom: 3.5px;
+  }
+  .hamburger-line2 {
+      display: block;
+      width: 17px;
+      height: 2px;
+      background-color: #fff;
+      margin-bottom: 4.5px;
+  }
+  .hamburger-line3 {
+      display: block;
+      width: 17px;
+      height: 2px;
+      background-color: #fff;
+  }
+
+    body{
+       overflow-x: hidden;
+    }
+    .nav-links{
+      display: none;
+  }
+  
+  .nav-links li{
+      opacity: 0;
+      padding: 2.2rem!important;
+  }
+  
+  .nav-links a{
+      font-size: 1.5rem;
+      color: #fff;
+  }
+  
+
+
+  
+
+
+  @keyframes navLinkFade{
+      from{
+          opacity: 0;
+          transform: translateX(50px);
+      }
+      to{
+          opacity: 1;
+          transform: translateX(0px);
+      }
+  }
+  
+  .toggle .hamburger-line1{
+      transform: rotate(133deg) translate(11px,0);
+  }
+  
+  .toggle .hamburger-line2{
+      opacity: 0;
+  }
+  
+  .toggle .hamburger-line3{
+      transform: rotate(225deg) translate(11px,0);
+  }
+  
+
+
+    .nav-links li {
+      padding: 1.2rem;
+      opacity: 0;
+  }
+
+  
+
+
+  .top-container {
+  font-size: 2rem;
+  height: 60vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 3rem;
+  }
+
+  .top-container p {
+      padding: 10px 0 35px 0;
+      font-size: 1.5rem;
+  }
+
+  .btn {
+      padding: 0rem 3rem;
+  }
+
+/* Section A */
+
+  .grid-container{
+      grid-template-columns: 1fr;
+      padding: 0;
+      justify-items: start;
+  }
+
+.container-a, .container-b, .container-c {
+  text-align: center;
+  padding: 4rem 0 2rem 0rem;
+}
+
+.container-a h2 {
+  padding-left: 1rem;
+  font-size: 2rem;
+}
+
+.imgdecor {
+  width: 80%;
+}
+
+.column {
+  padding: 1rem;
+}
+
+.grid-item {
+  width: 100%;
+}
+
+.grid-item p {
+  font-size: 0.9rem;
+  padding: 0.7rem;
+}
+
+.img-menu {
+  width: 37%;
+}
+
+p.foods-title, p.foods-title1 {
+  font-size: 1.7rem;
+}
+.order {
+  padding-bottom: 0;
+}
+
+/* Section B */
+
+.container-b h2 {
+  padding-left: 0rem;
+  font-size: 2.5rem;
+}
+.about {
+  flex-wrap: wrap;
+}
+.img-about {
+  width: 100%;
+}
+
+.p-about-title {
+  font-size: 2.5rem;
+  padding-bottom: 3rem;
+}
+
+.p-about {
+  width: 100%;
+  font-size: 1rem;
+  align-self: center;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+/* Section C */
+
+.container-b, .container-c {
+  text-align: center;
+  padding: 6rem 0 1rem 0rem;
+}
+
+.container-c h2 {
+  padding-left: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.img-events{
+  padding: 2rem 0;
+  grid-template-columns: 1fr;
+  margin: 0;
+}
+
+.img-events-decor {
+  width: 90%;
+  padding: 0;
+}
+
+.img-events h2 {
+  font-size: 2rem;
+}
+
+.img-events p {
+  font-size: 1rem;
+  padding: 1.2rem 3rem 7rem 3rem;
+}
+
+.party p {
+  padding-bottom: 2rem;
+}
+
+/* Section D */
+
+.section-d {
+  padding: 5rem 0 3rem 0;
+}
+
+
+.moments {
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding: 2rem 0rem;
+}
+
+.container-d {
+  padding: 0;
+}
+
+
+.container-d h2{
+  font-size: 2.3rem;
+}
+
+.p-moments {
+  font-size: 1rem;
+  width: 90%;
+}
+
+.p-moments h2 {
+  margin-left: 1rem;
+  padding-bottom: 2rem;
+}
+
+
+.continut-d {
+  margin: 3rem;
+}
+
+
+/* Animation */
+
+.animation {
+  height: 20vh;
+}
+
+.animation h1 {
+  font-size: 3rem;
+}
+
+/* Footer */
+
+
+.box-contact h2, .box-about h2, .box-rezervation h2 {
+  font-size: 1.7rem;
+}
+
+.box-contact p, .box-about p, .box-rezervation p {
+  font-size: 1.2rem;
+}
+
+.box-about, .box-contact a {
+  font-size: 1.3rem;
+}
+
+.list a{
+  font-size: 1rem;
+}
+
+
+/* Animation */
+
+.animation h1 {
+  font-size: 2.4rem;
+}
+
+.week{
+  font-size: 1rem;
+  font-family: sans-serif; 
+}
+
+
+/* Footer */
+
+.footer {
+  font-size: 1rem;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.box-contact{
+  padding-left: 1rem;
+}
+
+
+.box-contact h2, .box-about h2 {
+  font-size: 1.5rem;
+}
+
+.box-contact p, .box-about p, .box-rezervation p {
+  font-size: 1.2rem;
+}
+
+.box-about, .box-contact a, .box-rezervation {
+  font-size: 1.2rem;
+}
+
+input[type="email"] {
+  font-size: 1rem;
+}
+
+input[type="submit"] {
+  padding: .325rem .9375rem;
+}
+
+.box-rezervation{
+  grid-column: 1/3;
+  margin-top: 3rem;
+}
+
+.find-us {
+  font-size: 1.2rem;
+}
+
+
+.icons {
+  font-size: 2rem;
+  padding: 0;
+}
+}
+
+
+
+
+/* 
+//
+// TABLET
+//  ___________________________________________ */
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+ 
+
+/* Background */
+   .background{
+    max-height: 70vh;
+    
+   }
+
+   .hamburger{
+    display: block;
+    align-self: center;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.hamburger-line1{
+    display: block;
+    width: 17px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 3.5px;
+}
+.hamburger-line2{
+    display: block;
+    width: 17px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 4.5px;
+}
+.hamburger-line3{
+    display: block;
+    width: 17px;
+    height: 2px;
+    background-color: #fff;
+}
+
+  body{
+     overflow-x: hidden;
+  }
+  .nav-links{
+    display: none;
+}
+
+.nav-links li{
+    opacity: 0;
+}
+
+.nav-links a{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+
+
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .hamburger-line1{
+    transform: rotate(133deg) translate(11px,0);
+}
+
+.toggle .hamburger-line2{
+    opacity: 0;
+}
+
+.toggle .hamburger-line3{
+    transform: rotate(225deg) translate(11px,0);
+}
+
+
+
+  .nav-links li {
+    padding: 2.2rem 0!important;
+    opacity: 0;
+}
+
+    .showcase {
+        height: 18vh;
+        
+    }
+
+
+/* Section A */
+
+.container-a, .container-b, .container-c {
+    text-align: center;
+    padding: 7rem 0 3rem 0rem;
+}
+
+.container-a h2 {
+    padding-left: 2rem;
+}
+
+.imgdecor{
+    width: 50%;
+}
+
+.grid-item {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.img-menu {
+    width: 30%;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-row-gap: 5rem;
+    grid-template-columns: 1fr;
+    padding: 0;
+    justify-items: start;
+
+}
+
+.grid-item p {
+    font-size: 1.3rem; 
+}
+
+p.foods-title, p.foods-title1 {
+    font-size: 2.3rem; 
+}
+
+.column {
+    padding: 3rem;
+    background: #f4f4f4;
+    
+}
+
+
+
+/* Section B */
+
+.about {
+    margin: 0 3rem;
+    display: block;
+    text-align: center;
+}
+
+.img-about {
+    width: 100%;
+}
+
+.p-about {
+    width: 100%;
+    font-size: 1.4rem;
+    align-self: center;
+    text-align: center;
+    padding-top: 5rem;
+}
+/* Section C */
+
+.container-c h2{
+    padding: 0;
+}
+
+.img-events h2 {
+    font-size: 2.5rem;
+}
+
+.img-events p {
+    font-size: 1.4rem;
+}
+
+.baptism h2,.baptism p{
+    text-align: center;
+    width: 100%;
+}
+
+.img-events{
+    grid-template-columns: 1fr;
+    margin: 0;
+    text-align: start;
+}
+
+.img-events-decor {
+    width: 92%;
+    padding-left: 6rem;
+}
+
+.img-events-decor:hover {
+    box-shadow: none;
+    transform :none;
+    cursor: none;
+    
+}
+
+.wedding h2,.wedding p{
+    text-align: center;
+    width: 100%;
+
+}
+
+.party h2,.party p{
+    text-align: center;
+    width: 100%;
+
+}
+
+
+/* Section D */
+
+.section-d {
+    padding: 0 0 5rem 0;
+}
+
+.container-d {
+    text-align: center; 
+    padding: 7rem 0 3rem 4rem;
+}
+
+.moments{
+    display: inline-block;
+    padding: 0;
+}
+
+.p-moments h2 {
+    margin-left: 3rem;
+}
+
+.p-moments{
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    padding: 0 5rem;
+
+}
+
+.continut-d {
+    width: 90%;
+    padding: 1rem;
+    margin-left: 4.5rem;
+}
+
+/* Animation */
+
+.animation{
+    height: 23vh;
+    background-attachment: initial;
+}
+
+
+.animation h1 {
+    font-size: 4rem;
+
+}
+
+.week {
+    font-size: 1rem; 
+}
+
+
+/* Footer */
+
+
+.find-us {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0.3rem;
+}
+
+.icons {
+    font-size: 2.3rem;
+    padding: 0.5rem;
+}
+
+.copyright{
+    font-size: 1rem;
+}
+
+}
+
+/*Mobile-tablet navigation*/
+@media screen and (min-width: 360px) and (max-width: 1024px) {
+  .nav-active{
+    position: absolute;
+    right: 0;
+    top: 10vh;
+    background-color: rgb(99, 69, 14);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    height: 312px;
+  }
+}
+
+
+
+
+    

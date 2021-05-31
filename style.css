@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Global styles */
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Menu */
+.background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url(images/menu.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-height: 82vh;
+}
+
+nav {
+  display: flex;
+  padding: 2rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger div {
+  width: 27px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.logo {
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.nav-links li:not(:last-child) {
+  padding: 1.2rem;
+}
+.nav-links li:last-child {
+    padding: 0 0.5rem 0 1rem;
+}
+.nav-links a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Showcase */
+
+.showcase {
+  height: 60vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-container {
+  font-size: 4.5rem;
+  color: #fff;
+  height: 60vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.top-container p {
+  padding: 2rem 0 3.5rem 0;
+  font-family: "Signika", sans-serif;
+  font-size: 2rem;
+}
+
+.btn {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 0.6rem 6rem;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Signika", sans-serif;
+  font-size: 2.5rem;
+}
+
+.btn:hover {
+  background-color: rgba(255,255,255,.15);
+  transition: 0.2s ease-in-out;
+}
+
+/* Section A */
+
+.container-a {
+  text-align: center;
+  padding: 7rem;
+  font-size: 2rem;
+}
+
+.imgdecor {
+  width: 45%;
+}
+
+.column {
+  padding: 3rem 0rem;
+  background: #f4f4f4;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 5rem;
+}
+
+.grid-item {
+  display: flex;
+  width: 80%;
+  height: auto;
+  justify-self: center;
+}
+
+.grid-item img {
+  transition: 0.2s ease;
+}
+
+.grid-item img:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+  transform: scale(1.001);
+  cursor: pointer;
+}
+
+.grid-item p {
+  font-size: 1.3rem;
+  align-self: center;
+  padding-left: 2rem;
+}
+
+.img-menu {
+  width: 40%;
+}
+
+.order {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+p.foods-title {
+  font-size: 2rem;
+  font-family: "Signika", sans-serif;
+}
+p.foods-title1 {
+  font-size: 2rem;
+  font-style: italic;
+  font-family: "Signika", sans-serif;
+  margin-left: auto;
+}
+/* Section B */
+
+.container-b {
+  text-align: center;
+  padding: 7rem;
+  font-size: 2rem;
+}
+
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 1rem;
+}
+
+.img-about {
+  display: block;
+  height: auto;
+  width: 40%;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+.p-about {
+  font-size: 1.4rem;
+  align-self: center;
+  text-align: center;
+  width: 50%;
+  /* margin-right: 3rem; */
+}
+
+.p-about-title {
+  font-size: 3rem;
+  font-family: "Signika", sans-serif;
+  text-align: center;
+  padding-bottom: 3.5rem;
+}
+
+/* Section C */
+
+.container-c {
+  text-align: center;
+  padding: 10rem 0 5rem 0;
+  font-size: 2rem;
+}
+
+.events-container {
+  background-color: #f4f4f4;
+}
+
+.img-events {
+  display: grid;
+  height: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 8rem 0 5rem;
+  margin: 0rem 4rem;
+  text-align: center;
+}
+
+.img-events h2 {
+  font-size: 2rem;
+  padding-top: 2rem;
+  font-family: "Signika", sans-serif;
+}
+.img-events p {
+  font-size: 1.3rem;
+  padding: 3rem;
+}
+
+.img-events-decor {
+  width: 95%;
+}
+
+.img-events-decor:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.5);
+  transform: scale(1.009);
+  cursor: pointer;
+}
+
+/* Section-d */
+.section-d {
+  padding: 10rem 0 10rem 0;
+}
+
+.container-d {
+  text-align: center;
+  padding-bottom: 5rem;
+  font-size: 2rem;
+}
+.moments {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+  padding: 4rem;
+}
+
+.p-moments {
+  align-self: center;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.p-moments h2 {
+  font-size: 2.5rem;
+  padding-bottom: 3rem;
+  font-family: "Signika", sans-serif;
+}
+
+.continut-d {
+  width: 85%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 2.5rem;
+}
+
+.p-pleasure {
+  padding: 2rem;
+}
+
+.img-pleasure {
+  width: 100%;
+}
+
+/* Section Animation */
+
+.animation {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url(images/animation.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-height: 30vh;
+  display: grid;
+  font-family: sans-serif;
+}
+
+.animation h1 {
+  color: #fff;
+  font-size: 6rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.week {
+  color: #fff;
+  font-size: 1.3rem;
+  display: grid;
+}
+
+.week1,
+.week2 {
+  justify-self: center;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: auto;
+  background: #f4f4f4;
+  font-size: 2rem;
+  padding: 5rem 0;
+}
+.footer a {
+    color: #000;
+    transition: color 0.5s ease;
+}
+.footer a:hover {
+    color: #a52a2a;
+}
+
+.box-contact,
+.box-about,
+.box-rezervation {
+  justify-self: center;
+  text-align: center;
+  font-family: "Signika", sans-serif;
+}
+
+.box-about a{
+  display: block;
+  padding-bottom: 1rem;
+}
+
+.box-contact h2,
+.box-about h2,
+.box-rezervation h2 {
+  padding: 1.5rem 0 0.5rem;
+  font-size: 2.5rem;
+}
+.box-contact a {
+  padding: 0.5rem;
+  display: block;
+}
+
+.box-contact p,
+.box-about p,
+.box-rezervation p {
+  font-size: 1.4rem;
+  padding-bottom: 0.7rem;
+}
+
+.box-about,
+.box-contact a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.find-us {
+  text-align: center;
+  font-size: 1.6rem;
+  padding-bottom: 1rem;
+}
+
+.icons {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.icons a {
+  color: #4682b4;
+}
+.icons i {
+    transition:color 0.5s ease;
+}
+i:hover {
+  color: #a52a2a;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="email"] {
+  padding: 0.625rem;
+  margin-top: 0.3125rem;
+  border: 1px solid #00d188;
+}
+
+input[type="submit"] {
+  background-color: #00d188;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #00d188;
+  padding: 0.625rem 0.9375rem;
+  margin-top: 0.3125rem;
+}
+
+.absolute-footer {
+  text-align: center;
+  padding: 1.3rem;
+  background-color: rgb(24, 19, 19);
+  color: #fff;
+  font-family: sans-serif;
+}
+.absolute-footer .copyright a{
+    color: #fff;
+    font-size: 1.4rem;
+}
+.absolute-footer {
+  border-top: 1px solid rgb(24, 19, 19);
+  padding: 3rem 0;
+}
+.absolute-footer .social-media {
+  font-size: 1.6rem;
+  color: #fff;
+  padding-bottom: 2rem;
+}
+.absolute-footer .social-media a {
+  color: #fff;
+}
